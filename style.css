@@ -1,0 +1,125 @@
+/*general code*/
+html{
+width: 100%;
+height: auto;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(235, 226, 191);
+}
+
+/*header*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul.head li{
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: darksalmon;
+}
+ul.head{
+word-spacing: 5rem;
+margin-top: 1.8rem;
+}
+
+
+/*presentation with photo*/
+img#akeem{
+    width:50%;
+    height: 100%;
+    /*border-radius: 60%;*/
+}
+
+
+div.photo{
+    height: 37.5rem;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+div.info ul#me{
+display: none;
+font-size: 2rem;
+}
+
+div.info ul#me li{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+input{
+    height: 4rem;
+    margin-top: 15rem;
+}
+input:hover{
+    background-color:gold;
+}
+
+/*last part*/
+div.secondhalf{
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+}
+
+h2, p, h3, h4{
+    text-align: center;
+}
+
+/* Responsive modifications for smartphones*/
+@media only screen and (min-width: 250px) and (max-width:650px){
+ul.head{
+    display: none;
+
+}
+
+img#akeem{
+    width: 80%;
+    height: 50%;
+    margin-left: 2rem;
+    /*border-radius: 60%;*/
+}
+
+div.photo{
+    flex-direction: column;
+    
+
+}
+
+div#secondhalf{
+    display: block;
+}
+
+div.info ul#me li{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+div.info{
+    height: 20rem;
+}
+
+h2, p, h3, h4{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+};
+
+/* Responsive modifications for tablets*/
+@media only screen and (min-width:651px) and (max-width:900px){
+
+};
+
